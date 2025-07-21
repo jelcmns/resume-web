@@ -16,7 +16,6 @@ a {
 }
 
 a:hover {
-    color: #fd0202;
     text-decoration: none;
     background-color: whitesmoke;
     color: #222222;
@@ -27,13 +26,13 @@ a:hover {
 header {
     background: #333;
     color: #fff;
-    padding: 5px 10px;
+    padding:5px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
-    top: 0;
+    top: 0px;
 }
 
 header .logo {
@@ -44,6 +43,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 
 nav a {
@@ -52,7 +52,7 @@ nav a {
 }
 
 main {
-    padding: 80px 20px; /* Add padding to avoid content being hidden behind the fixed header */
+    padding: 100px 20px; 
 }
 
 section {
